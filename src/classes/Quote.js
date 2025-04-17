@@ -9,6 +9,10 @@ class Quote {
   info() {
     return `Quote has id ${this.id} and author is ${this.author}`;
   }
+
+  formatAuthor() {
+    return `@${this.author}`;
+  }
 }
 
 export default Quote;

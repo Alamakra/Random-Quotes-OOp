@@ -1,4 +1,4 @@
-import RandomQuote from './src/classes/RandomQuote.js';
+import RandomQuote from './RandomQuote.js';
 
 class RandomQuotesApp {
   constructor() {
@@ -14,7 +14,7 @@ class RandomQuotesApp {
     const { text, author } = this.currentQuote;
 
     this.quoteTextElement.textContent = `"${text}"`;
-    this.quoteAuthorElement.textContent = author;
+    this.quoteAuthorElement.textContent = this.currentQuote.formatAuthor();
   }
 
   getRandomQuote() {
