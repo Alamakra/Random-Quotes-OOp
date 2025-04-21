@@ -1,9 +1,9 @@
 class Quote {
-  constructor(id, text, author) {
+  constructor(id, text, author, isFavorite) {
     this.id = id;
     this.text = text;
     this.author = author;
-    this.isFavorite = false;
+    this.isFavorite = isFavorite;
   }
 
   info() {

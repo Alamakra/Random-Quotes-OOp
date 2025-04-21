@@ -19,6 +19,14 @@ body {
   border-radius: 10px;
 }
 
+.btn-secondary {
+  background-color: #6c757d;
+}
+
+.btn-secondary:hover {
+  background-color: #5a6268;
+}
+
 .btn-primary {
   background-color: #007bff;
 }
